@@ -1,6 +1,6 @@
 
 import requests
-from bs4 import Beautifulsoup
+from bs4 import BeautifulSoup
 
 url="https://ridibooks.com/category/bestsellers/2200"
 response=requests.get(url)
